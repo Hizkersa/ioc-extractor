@@ -1,0 +1,7 @@
+type,value
+ip,192.168.10.55
+ip,34.102.18.120
+domain,malware-dropper.org
+domain,payload.exe
+url,https://malware-dropper.org/payload.exe
+md5,b1946ac92492d2347c6235b4d2611184

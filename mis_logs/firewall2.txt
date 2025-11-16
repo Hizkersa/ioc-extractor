@@ -1,0 +1,1 @@
+Jan 21 14:22:18 Firewall drop SRC=192.168.10.55 DST=34.102.18.120 URL=https://malware-dropper.org/payload.exe SHA256=b1946ac92492d2347c6235b4d2611184

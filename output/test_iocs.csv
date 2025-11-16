@@ -1,0 +1,5 @@
+type,value
+ip,45.67.89.10
+domain,c2.php
+domain,evil.com
+url,http://evil.com/c2.php

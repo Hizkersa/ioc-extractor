@@ -1,0 +1,4 @@
+Suspicious connection from 185.12.44.23 to panel.bad-domain.net
+Malware download: http://malicious.example.com/payload.exe
+File hash (md5): d41d8cd98f00b204e9800998ecf8427e
+Other hash (sha1): da39a3ee5e6b4b0d3255bfef95601890afd80709
