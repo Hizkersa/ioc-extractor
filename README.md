@@ -115,6 +115,7 @@ Domain	Hostname used by attacker	Easier to track in DNS logs or threat feeds
 URL	Resource path used for delivery	Identifies payloads, phishing links or drop servers
 Hash	File fingerprint	Used to check malware fingerprints in VirusTotal, MISP, etc.
 
+
 ## Requirements
 
 - Python 3.8+
