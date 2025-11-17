@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# Logs and local test files
+mis_logs/
+output/
+*.log
+*.save
