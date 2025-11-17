@@ -44,9 +44,6 @@ ioc-extractor-python/
 
 4. Check your extracted IOCs inside the output/ folder.
 
-Excelente — te preparo un bloque listo para copiar y pegar en tu README, con explicación clara y profesional del output para que cualquier reclutador, SOC analyst, DFIR analyst o pentester pueda entenderlo.
-
-
 
 ## Output Explained (IOC Results)
 
