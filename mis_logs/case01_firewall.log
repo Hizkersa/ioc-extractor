@@ -1,0 +1,4 @@
+2024-11-18 09:12:44 FW ALERT: outbound connection detected src=10.21.55.82 dst=91.121.85.92 url=http://soft-update-check.com/install/agent_update.exe
+2024-11-18 09:12:51 FW WARNING: unusual download from https://cdn-files-storage.net/files/setup_v2.exe
+2024-11-18 09:13:02 DNS QUERY: malware-checker.ru requested by host
+2024-11-18 09:13:07 EDR ALERT: suspicious file hash detected sha256=fcf3c3a95d6ed5dd4b4219802a90b625dcb65e89e57ccb1e3c30affb5c92e2c8

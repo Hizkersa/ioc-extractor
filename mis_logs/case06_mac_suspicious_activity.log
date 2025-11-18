@@ -1,0 +1,8 @@
+2025-11-18 13:22:55 (system) <Warning>: denied lookup: name = com.apple.tccd.system, requestor = searchpartyd[579], error = 159: Sandbox restriction
+2025-11-18 13:22:57 (system) <Info>: suspicious process detected: /private/var/tmp/.cache/agent64
+2025-11-18 13:23:01 (system) <Warning>: unexpected network beacon from process agent64 to http://update-security-check.ru/ping
+2025-11-18 13:23:02 (network) <Info>: outbound connection initiated: 185.199.220.59:443 (TLS handshake failed)
+2025-11-18 13:23:03 (download) <Warning>: file retrieved from https://cdn-data-storage.net/tools/installer_v2.pkg
+2025-11-18 13:23:04 (hash) <Info>: file SHA256: c2b7f03f57db909eb42fae827b5f314b6c4a8ca6e322b385496f7bfd42e1ae4b
+2025-11-18 13:23:05 (system) <Alert>: sandbox denied execution attempt: /private/var/tmp/.cache/installer_v2.pkg
+2025-11-18 13:23:06 (network) <Warning>: DNS lookup performed on malware-checker.biz

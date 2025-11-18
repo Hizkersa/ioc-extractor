@@ -1,0 +1,106 @@
+---
+
+# ✅ **Archivo HOW_TO_USE.txt (para principiantes)**
+
+```text
+===========================================
+ IOC EXTRACTOR – HOW TO USE (GUIDE)
+===========================================
+
+This guide explains how to use the IOC extraction tool
+in two ways:
+
+1) From the terminal (CLI)
+2) As a local web application (Flask UI)
+
+===========================================================
+1) USING THE TOOL FROM THE TERMINAL  (CLI MODE)
+===========================================================
+
+STEP 1 — Open a terminal and go to the project folder:
+
+    cd ~/ioc-extractor-python
+
+STEP 2 — Place log files inside "mis_logs/"
+
+Example:
+    echo "Suspicious connection from 1.2.3.4 to http://evil.com" \
+         > mis_logs/test_cli.log
+
+STEP 3 — Run the tool:
+
+    python3 ioc_extractor.py mis_logs/test_cli.log \
+        --log-type generic \
+        -o output/result.csv \
+        --format csv \
+        --explain
+
+STEP 4 — View the output:
+
+    - CSV file created in: output/result.csv
+    - Human-readable IOC summary printed in terminal
+
+===========================================================
+2) USING VIRUSTOTAL ENRICHMENT (OPTIONAL)
+===========================================================
+
+STEP A — Export your API key:
+
+    export VT_API_KEY="YOUR_API_KEY"
+
+STEP B — Run with VT enrichment:
+
+    python3 ioc_extractor.py mis_logs/test_cli.log \
+        --vt-enrich \
+        --explain
+
+You will see reputation scores for:
+    - IPs
+    - Domains
+    - URLs
+
+===========================================================
+3) RUNNING THE LOCAL WEB INTERFACE (FLASK MODE)
+===========================================================
+
+STEP 1 — Install Flask:
+
+    pip install flask
+
+STEP 2 — Start the web app:
+
+    python3 web_app.py
+
+STEP 3 — Open in your browser:
+
+    http://127.0.0.1:5000
+
+You can now:
+    ✓ Upload log files
+    ✓ Extract IOCs
+    ✓ Perform VirusTotal enrichment
+    ✓ Download CSV / JSON / STIX files
+
+===========================================================
+4) TROUBLESHOOTING
+===========================================================
+
+If you see: "requests not installed"
+    → pip install requests
+
+If you see: "flask not installed"
+    → pip install flask
+
+If VirusTotal enrichment shows "(no stats or error)"
+    → Your API key may be invalid OR free tier quota exceeded
+
+===========================================================
+5) ADDITIONAL HELP
+===========================================================
+
+You can contact the author or open an issue on GitHub:
+https://github.com/Hizkersa/ioc-extractor
+
+===========================================
+ END OF HOW-TO GUIDE
+===========================================

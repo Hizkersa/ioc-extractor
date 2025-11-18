@@ -1,0 +1,8 @@
+2024-11-16 10:22:45 firewall[1234]: DROPPED outbound connection src=10.0.0.15 dst=185.199.110.153 url=http://malicious-update.com/install.php
+
+2024-11-16 10:22:50 proxy[5678]: user=john.smith accessed https://panel.badhost.net/login.php
+
+2024-11-16 10:23:10 av[9999]: detected suspicious file C:\Users\john\Downloads\invoice_2024.exe md5=5d41402abc4b2a76b9719d911017c592
+
+2024-11-16 10:23:40 edr[2222]: process beaconing to http://c2.evilcorp.ru:8080/path/checkin.php sha1=da39a3ee5e6b4b0d3255bfef95601890afd80709
+
